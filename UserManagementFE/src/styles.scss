@@ -1,0 +1,42 @@
+@import 'bootstrap';
+
+.btn-primary {
+  background-color: #A71930; /* Red color */
+  border-color: #A71930; /* Red color */
+  padding: 10px 20px;
+}
+
+.btn-primary:active,
+.btn-primary:hover {
+  background-color: gold !important;
+  border-color: gold !important;
+}
+
+.table-striped {
+  background-color: lightgoldenrodyellow;
+  color: darkgray;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.custom-button.small {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  height: auto;
+  width: 100px;
+}
+
+.custom-button.large {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  height: auto;
+  width: auto;
+}
+
+.custom-button + .custom-button {
+  margin-top: 10px;
+}
+

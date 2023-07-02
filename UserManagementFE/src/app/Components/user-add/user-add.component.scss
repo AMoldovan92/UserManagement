@@ -1,0 +1,32 @@
+/* Input field styles */
+.form-control {
+  background-color: #302F2D; /* Dark brown color */
+  border-color: #423F3D; /* Brown color */
+  color: #FFFFFF; /* White color */
+}
+
+.label {
+  color: white;
+}
+
+#addUserButton {
+  padding: 20px;
+}
+
+.transition-animation {
+  transition: all 0.5s ease;
+}
+
+.button-animation {
+  transition: transform 0.5s ease;
+}
+
+.button-animation.open {
+  transform: scale(1);
+}
+
+.button-animation.closed {
+  transform: scale(0);
+}
+
+
